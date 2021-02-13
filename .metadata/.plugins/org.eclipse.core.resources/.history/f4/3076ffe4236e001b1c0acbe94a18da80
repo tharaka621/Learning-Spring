@@ -28,13 +28,7 @@ public class DemoApplication {
 		
 		int result = binarySearchVariable.binarSearch(new int[] {1, 4, 23}, 3); //sending values
 		
-		System.out.println(result); 
-		
-		/*
-		 *The Printed Result:   Quick Sort Algorithm Running......... 3
-					
-							Since we have label QuickSort Class as a Bean. Spring Runs the Quick Sort Class. 
-		 */
+		System.out.println(result);
 		
 	}
 
