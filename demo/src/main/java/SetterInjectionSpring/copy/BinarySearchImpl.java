@@ -1,10 +1,19 @@
-package LooseyCoupleDemoWithSpring;
+package SetterInjectionSpring.copy;
 
 import org.apache.logging.log4j.util.SortedArrayStringMap;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-//THIS IS A DUMMY CLASS ***************
+
+/*
+ * ************NOTE (RECOMENDATION)**********
+ 	Use Constructor injection for mandatory classes 
+ 	for optional classes use setter injection 
+ 	not necessary need to mention a setter method to set the injection 
+ 	
+ 	
+ 	**NOTE : No really difference in Setter or Constructor Injection.  So no need to have an either. 
+ */
 
 @Component //Tell Spring this is a Beans
 public class BinarySearchImpl {
@@ -12,11 +21,11 @@ public class BinarySearchImpl {
 	@Autowired //Tell Spring this a dependency for 'BinarySearchImpl'
 	private SortAlgotithm SortAlgotithmVaruable;
 
-	//Here we have use CONSTRUCTOR INJECTION
-	public BinarySearchImpl(SortAlgotithm sortAlgotithmVaruable) { //This is a Constructor 
-		super();
-		SortAlgotithmVaruable = sortAlgotithmVaruable;
+	//This is Setter Injection 
+	public void setSortAlgotithmVaruable(SortAlgotithm sortAlgotithmVaruable) { //This is a setter
+		this.SortAlgotithmVaruable = sortAlgotithmVaruable;
 	}
+
 
 
 	public int binarSearch(int[] numbers, int numberToSearch){
