@@ -2,7 +2,7 @@ package LooseyCoupleDemoWithSpring;
 
 import org.springframework.stereotype.Component;
 
-
+@Component
 public class BubbleSortAlgorithm implements SortAlgotithm{
 	
 	public int[] sort(int[] numbers){
