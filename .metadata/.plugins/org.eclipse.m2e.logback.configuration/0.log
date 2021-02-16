@@ -475,3 +475,17 @@ Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find
 2021-02-16 11:26:29,978 [Worker-425] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-02-16 11:26:29,978 [Worker-425] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2021-02-16 11:26:29,978 [Worker-425] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\THARAKA\Desktop\Learning Spring\demo\src\test\resources
+2021-02-16 11:31:31,338 [Worker-432] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-16 11:31:31,338 [Worker-432] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-16 11:31:31,340 [Worker-432] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-16 11:31:31,348 [Worker-432] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-16 11:31:31,351 [Worker-432] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-16 11:31:31,351 [Worker-432] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-16 11:31:31,351 [Worker-432] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\THARAKA\Desktop\Learning Spring\demo\src\test\resources
+2021-02-16 11:36:43,185 [Worker-437] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-16 11:36:43,185 [Worker-437] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-16 11:36:43,186 [Worker-437] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-16 11:36:43,196 [Worker-437] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-16 11:36:43,198 [Worker-437] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-16 11:36:43,198 [Worker-437] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-16 11:36:43,199 [Worker-437] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\THARAKA\Desktop\Learning Spring\demo\src\test\resources
