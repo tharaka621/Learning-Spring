@@ -489,3 +489,42 @@ Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find
 2021-02-16 11:36:43,198 [Worker-437] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-02-16 11:36:43,198 [Worker-437] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2021-02-16 11:36:43,199 [Worker-437] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\THARAKA\Desktop\Learning Spring\demo\src\test\resources
+2021-02-16 11:43:36,494 [Worker-433] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.MavenExample:mavenDemoProject:0.0.1-SNAPSHOT @ C:\Users\THARAKA\Desktop\Learning Spring\mavenDemoProject\pom.xml.
+2021-02-16 11:43:42,144 [Worker-433] WARN  o.e.m.j.i.AbstractJavaProjectConfigurator - Could not determine source level, using default 1.5
+2021-02-16 11:43:42,155 [Worker-433] WARN  o.e.m.j.i.AbstractJavaProjectConfigurator - Could not determine target level, using default 1.5
+2021-02-16 11:43:44,023 [Worker-433] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mavenDemoProject/src/main/java
+2021-02-16 11:43:44,024 [Worker-433] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /mavenDemoProject/src/main/resources
+2021-02-16 11:43:44,040 [Worker-433] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /mavenDemoProject/src/main/resources
+2021-02-16 11:43:44,062 [Worker-433] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mavenDemoProject/src/test/java
+2021-02-16 11:43:47,701 [Worker-433] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 19 sec
+2021-02-16 11:43:52,855 [Worker-440] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-16 11:43:52,855 [Worker-440] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-16 11:43:52,856 [Worker-440] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-16 11:43:52,951 [Worker-440] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-16 11:43:52,955 [Worker-440] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-16 11:43:52,955 [Worker-440] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-16 11:43:52,956 [Worker-440] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\THARAKA\Desktop\Learning Spring\mavenDemoProject\src\test\resources
+2021-02-16 11:44:32,894 [Worker-428] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.MavenExample:mavenDemoProject:0.0.1-SNAPSHOT @ C:\Users\THARAKA\Desktop\Learning Spring\mavenDemoProject\pom.xml.
+2021-02-16 11:44:35,372 [Worker-428] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-16 11:44:35,372 [Worker-428] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-16 11:44:35,377 [Worker-428] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-16 11:44:35,377 [Worker-428] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-16 11:44:35,382 [Worker-428] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-16 11:44:35,382 [Worker-428] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-16 11:44:35,382 [Worker-428] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\THARAKA\Desktop\Learning Spring\mavenDemoProject\src\test\resources
+2021-02-16 11:44:47,043 [Worker-442] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-02-16 11:44:48,223 [Worker-442] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.MavenExample:mavenDemoProject:0.0.1-SNAPSHOT @ C:\Users\THARAKA\Desktop\Learning Spring\mavenDemoProject\pom.xml.
+2021-02-16 11:44:48,864 [Worker-442] WARN  o.e.m.j.i.AbstractJavaProjectConfigurator - Could not determine source level, using default 1.5
+2021-02-16 11:44:48,866 [Worker-442] WARN  o.e.m.j.i.AbstractJavaProjectConfigurator - Could not determine target level, using default 1.5
+2021-02-16 11:44:49,176 [Worker-442] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mavenDemoProject/src/main/java
+2021-02-16 11:44:49,176 [Worker-442] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /mavenDemoProject/src/main/resources
+2021-02-16 11:44:49,177 [Worker-442] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /mavenDemoProject/src/main/resources
+2021-02-16 11:44:49,178 [Worker-442] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mavenDemoProject/src/test/java
+2021-02-16 11:44:49,674 [Worker-442] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2021-02-16 11:44:50,825 [Worker-438] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-16 11:44:50,825 [Worker-438] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-16 11:44:50,826 [Worker-438] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-16 11:44:50,855 [Worker-438] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-16 11:44:50,858 [Worker-438] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-16 11:44:50,859 [Worker-438] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-16 11:44:50,859 [Worker-438] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\THARAKA\Desktop\Learning Spring\mavenDemoProject\src\test\resources
