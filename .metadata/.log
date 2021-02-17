@@ -911,3 +911,9 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2021-02-17 08:12:58.865
 !MESSAGE Could not determine target level, using default 1.5
+
+!ENTRY org.eclipse.jface.text 2 0 2021-02-17 18:45:15.405
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2021-02-17 18:45:15.422
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
