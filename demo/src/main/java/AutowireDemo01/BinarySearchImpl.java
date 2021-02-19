@@ -15,7 +15,7 @@ import org.springframework.stereotype.Component;
 public class BinarySearchImpl {
 
 	@Autowired
-	private SortAlgotithm quickSortAlgorithm; /*
+	private SortAlgotithm bubbleSortAlgorithm; /*
 												 * calling the implement by the class name. When you have two 'components' classes
 												
 												 * Can use when No '@primary'
@@ -23,7 +23,7 @@ public class BinarySearchImpl {
 
 	public int binarSearch(int[] numbers, int numberToSearch) {
 
-		int[] sortedNumbers = quickSortAlgorithm.sort(numbers);
+		int[] sortedNumbers = bubbleSortAlgorithm.sort(numbers);
 
 		// Search the array
 
