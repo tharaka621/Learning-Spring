@@ -25,9 +25,20 @@ public class DemoApplication {
 		
 		BinarySearchImpl binarySearchVariable1 =  applicationContext.getBean(BinarySearchImpl.class); //getting the beans out from the application context and assign to variable
 		BinarySearchImpl binarySearchVariable2 =  applicationContext.getBean(BinarySearchImpl.class); //getting the beans out from the application context and assign to variable
+		BinarySearchImpl binarySearchVariable3 =  applicationContext.getBean(BinarySearchImpl.class); //getting the beans out from the application context and assign to variable
+		BinarySearchImpl binarySearchVariable4 =  applicationContext.getBean(BinarySearchImpl.class); //getting the beans out from the application context and assign to variable
+		BinarySearchImpl binarySearchVariable5 =  applicationContext.getBean(BinarySearchImpl.class); //getting the beans out from the application context and assign to variable
+		BinarySearchImpl binarySearchVariable6 =  applicationContext.getBean(BinarySearchImpl.class); //getting the beans out from the application context and assign to variable
+
+		
+		
 		
 		System.out.println(binarySearchVariable1);
 		System.out.println(binarySearchVariable2);
+		System.out.println(binarySearchVariable3);
+		System.out.println(binarySearchVariable4);
+		System.out.println(binarySearchVariable5);
+		System.out.println(binarySearchVariable6);
 		
 		
 		
