@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: Demo_02
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: THARAKA
+Implementation-Vendor-Id: com.BeanComplex
+Build-Jdk: 1.8.0_241
+Implementation-URL: https://spring.io/projects/spring-boot/Demo_02
+Created-By: Maven Integration for Eclipse
+
