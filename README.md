@@ -2,7 +2,7 @@
 
 <h1>Spring Learning Examples</h1>
 
-<h3>DEMO 02 </h3>
+<h3>DEMO 02 *********************************</h3>
 
 1. Use Proxy to get different instance from the Dependency 
    while getting singale instance from the bean. 
