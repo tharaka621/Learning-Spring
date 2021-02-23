@@ -26,6 +26,7 @@ public class componentApplication {
 		ComponentDAO componentDAOVariable1 =  applicationContext.getBean(ComponentDAO.class); //getting the beans out from the application context and assign to variable
 		
 		LOGGER.info("{}",componentDAOVariable1);
+		LOGGER.info("{}",componentDAOVariable1.getJdbcConnection());
 	
 	
 	}
