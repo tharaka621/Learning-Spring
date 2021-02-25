@@ -1,5 +1,10 @@
 package AutowireDemo02_Qualifier.copy;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
@@ -12,6 +17,8 @@ import org.springframework.stereotype.Component;
 
 @Component 
 public class BinarySearchImpl {
+	
+	private Logger Logger = LoggerFactory.getLogger(this.getClass());
 
 	@Autowired
 	@Qualifier("bubble") //use the 'bubble' name to search as key
@@ -22,8 +29,17 @@ public class BinarySearchImpl {
 		int[] sortedNumbers = sortAlgorithm.sort(numbers);
 
 		// Search the array
-
 		return 3;
+	}
+	
+	@PostConstruct
+	public void postConstruct(){
+		Logger.info("Post Construct");
+	}
+	
+	@PreDestroy
+	public void preDestroy(){
+		Logger.info("pre Destroy");
 	}
 
 }
