@@ -2,6 +2,19 @@
 
 <h1>Spring Learning Examples</h1>
 
+
+<h3>DEMO *********************************</h3>
+
+<h4>AutowireDemo02_Qualifier</h4>
+
+1. <b>@Qulifier</b>  : Use to search(Autowired) the specific dependency 
+
+2. <b>@PostConstruct</b> : use to do certain things before creating the beans 
+
+2. <b>@PreDestroy</b> : use to do certain things after destroy the beans 
+
+
+
 <h3>DEMO 02 *********************************</h3>
 
 1. Use Proxy to get different instance from the Dependency 
