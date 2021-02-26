@@ -34,11 +34,13 @@ public class BinarySearchImpl {
 	
 	@PostConstruct
 	public void postConstruct(){
+		System.out.println("Welcome");
 		Logger.info("Post Construct");
 	}
 	
 	@PreDestroy
 	public void preDestroy(){
+		System.out.println("Good Day");
 		Logger.info("pre Destroy");
 	}
 
