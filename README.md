@@ -6,8 +6,8 @@
 <h3>DEMO *********************************</h3>
 
 <b>@SpringBootApplication</b> tell spring Where to search for beans?
-<b>@Component</b>  Tell Spring this is a Beans
-<b>@Autowired </b> specify the dependency
+<b>@Component</b>           Tell Spring this is a Beans
+<b>@Autowired </b>          specify the dependency
 
 <h4>AutowireDemo02_Qualifier</h4>
 

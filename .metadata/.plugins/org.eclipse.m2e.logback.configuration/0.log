@@ -2981,3 +2981,5 @@ Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find
 2021-02-27 16:03:42,407 [Worker-381] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2021-02-27 16:03:42,514 [Worker-381] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2021-02-27 16:03:42,517 [Worker-381] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-27 16:03:42,517 [Worker-381] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-27 16:03:42,517 [Worker-381] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\THARAKA\Desktop\Learning Spring\demo\src\test\resources
