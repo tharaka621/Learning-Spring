@@ -31,6 +31,7 @@
 -------------------------------------------------------------------------------------------------------------
 
 3. CDI - context and dependency injection ( Alternate for Spring)
+This is Java EE Dependency Injection Standard (JSR-330)
 
 <b>@Inject</b> (@Autowired)
 <b>@Named</b>   (@Component , @Qualifier)
