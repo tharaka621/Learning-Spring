@@ -1,12 +1,13 @@
 package SpringWithoutSpringBoot;
 
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.ConfigurableApplicationContext; 
+import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration; 
 
-
-@SpringBootApplication //3. tell spring Where to search for beans?
+@Configuration
+@ComponentScan
 public class DemoApplication {
 	
 	/*
@@ -21,7 +22,7 @@ public class DemoApplication {
 		//BinarySearchImpl binarySearchVariable = new BinarySearchImpl(new QuickSortAlgorithm()); //No need, Since Spring is doing this instead 
 		
 		//Application Context is manage all the beans
-		ConfigurableApplicationContext applicationContext = SpringApplication.run(DemoApplication.class, args); //press CRT+1 and assign application context to local variable
+		ConfigurableApplicationContext applicationContext = new AnnotationConfigApplicationContext(DemoApplication.class);
 		
 		BinarySearchImpl binarySearchVariable =  applicationContext.getBean(BinarySearchImpl.class); //getting the beans out from the application context and assign to variable
 		

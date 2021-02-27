@@ -5,11 +5,11 @@
 
 <h3>DEMO *********************************</h3>
 
-<b>@SpringBootApplication</b> tell spring Where to search for beans?
+<b>@SpringBootApplication </b>: tell spring Where to search for beans?
 
-<b>@Component</b>           Tell Spring this is a Beans
+<b>@Component </b>:           Tell Spring this is a Beans
 
-<b>@Autowired </b>          specify the dependency
+<b>@Autowired </b>:          specify the dependency of the bean
 
 <h4>AutowireDemo02_Qualifier</h4>
 
@@ -19,7 +19,14 @@
 
 2. <b>@PreDestroy</b> : use to do certain things after destroy the beans 
 
+<h4>SpringWithoutSpringBoot</h4>
 
+Using Spring Framework without Springboot
+
+<b>@Configuration</b>: Define the spring configeration
+<b>@ComponentScans</b>: Define which package to scan 
+
+<b>AnnotationConfigApplicationContext</b>: Creating the ApplicationContext 
 
 <h3>DEMO 02 *********************************</h3>
 
