@@ -1,7 +1,6 @@
 package SpringWithoutSpringBoot;
 
 
-import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration; 
@@ -22,7 +21,8 @@ public class DemoApplication {
 		//BinarySearchImpl binarySearchVariable = new BinarySearchImpl(new QuickSortAlgorithm()); //No need, Since Spring is doing this instead 
 		
 		//Application Context is manage all the beans
-		ConfigurableApplicationContext applicationContext = new AnnotationConfigApplicationContext(DemoApplication.class);
+		try(AnnotationConfigApplicationContext applicationContext = 
+				new AnnotationConfigApplicationContext(DemoApplication.class)){ //creating application context
 		
 		BinarySearchImpl binarySearchVariable =  applicationContext.getBean(BinarySearchImpl.class); //getting the beans out from the application context and assign to variable
 		
@@ -31,12 +31,8 @@ public class DemoApplication {
 		
 		System.out.println(result); 
 		
-		/*
-		 *The Printed Result:   Quick Sort Algorithm Running......... 3
-					
-							Since we have label QuickSort Class as a Bean. Spring Runs the Quick Sort Class. 
-		 */
-		
+		//applicationContext.close(); // close application context
+		} //try- catch block auto close the application contest even there is an exception
 	}
 
 }
