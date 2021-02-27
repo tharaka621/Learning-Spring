@@ -27,3 +27,11 @@
 2. Component scan to scan beans from a different packages 
 
 <b>@ComponentScan("com.BeanComplex.componentscan")</b>    // package_name = com.BeanComplex.componentscan
+
+-------------------------------------------------------------------------------------------------------------
+
+3. CDI - context and dependency injection ( Alternate for Spring)
+
+<b>@Inject</b> (@Autowired)
+<b>@Named</b>   (@Component , @Qualifier)
+<b>@Singleton</b> (Defines a scope of songleton)
